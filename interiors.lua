@@ -417,7 +417,7 @@ Citizen.CreateThread(function()
 		"che_maincabin_occupied"
 	})
 
-	--Fixes interior for ranch near Oil Field (786.64, 851.76, 118.6})
+	--Fixes interior for ranch near Oil Field (786.64, 851.76, 118.6)
 	ActivateInteriorEntitySets(28418, "Carmody Dell", {
 		"_car_house_int_before_ransack",
 		"_car_house_int_day"
@@ -430,7 +430,7 @@ end)
 --Fix Rhodes Bank Hole (fixes textures outside of bank)
 RequestImap(828093818)
 RequestImap(518127510)
-RemoveImap(758684739)m
+RemoveImap(758684739)
 RemoveImap(-661825463)
 
 --Fix St. Denis Bank Floor (removes geometry in alley)
